@@ -134,3 +134,18 @@ while (a > 5)
     3. int[] arr_name = new int[] {1,2}; 
        int[] arr_name = {1,2};
 
+## Прямоугольные массивы
+
+Прямоугольный массив - это не что иное, как двумерный массив, например, размерностью 4x2:
+
+    int[,] arr_name_1 = new int[4,2]; 
+    int[,] arr_name_2 = {{0, 1, 2, 3}, {0, 1, 2}}; 
+    
+    for(i = 0; i < arr_name_1.GetLength(0); 
+    i++)
+    { 
+        for (j = 0; j < arr_name_1.GetLength(1); j++)
+        { 
+            System.Console.WriteLine(arr_name_1[i,j]); 
+            } 
+        }

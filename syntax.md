@@ -77,3 +77,18 @@ while (a > 5)
     System.Console.WriteLine(a); 
     a--; 
     }
+
+## Оператор цикла do-while
+
+Тело цикла выполняется до проверки условия:
+
+    int a = 100; 
+
+    do{ 
+
+    System.Console.WriteLine(a); 
+
+    a--; 
+
+    } while (a > 5)
+

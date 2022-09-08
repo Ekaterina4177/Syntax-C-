@@ -138,8 +138,10 @@ double f(double x)
 Способы заполнения массивов:
 
     1. int arr_name = new int[2]; 
+    
     2. arr_name[0] = 1; 
        arr_name[1] = 2; 
+       
     3. int[] arr_name = new int[] {1,2}; 
        int[] arr_name = {1,2};
 
